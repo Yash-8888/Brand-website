@@ -14,8 +14,17 @@ function Content_B(){
                 SHOES.
             </p>
             <div className="flex gap-4 mt-8">
-                <button className="text-[20px] font-bold text-white bg-red-500">Shop Now</button>
+                <button 
+                onClick={() => {
+                    window.location.href = 'https://www.nike.com/in/w/red-shoes-3abn9zy7ok';
+                }}
+                className="text-[20px] font-bold text-white bg-red-500">Shop Now</button>
                 <button className="text-[20px] text-gray-500 border font-bold">Catogory</button>
+            </div>
+            <p className="mt-4 text-gray-500">Also available on</p>
+            <div className="flex gap-4">
+                <img className="size-6 mt-3" src="/images/amazon.png" alt="" />
+                <img className="size-6 mt-3" src="/images/flipkart.png" alt="" />
             </div>
             </div>
             <div className="size-130">
