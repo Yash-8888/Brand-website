@@ -1,6 +1,6 @@
 
 
-function Navbar({setShowLogin}) {
+function Navbar({ setShowLogin, setShowSignUp }) {
     return(
         
         <div className="navbar">
@@ -12,6 +12,7 @@ function Navbar({setShowLogin}) {
                 <li><a href="https://www.nike.com/in/help">CONTACT</a></li>
             </ul>
             <button onClick={()=> setShowLogin(true)} className="login-btn">Login</button>
+            <button onClick={()=> setShowSignUp(true)} className="Sign-up">Sign up</button>
         </div>
     )
 }

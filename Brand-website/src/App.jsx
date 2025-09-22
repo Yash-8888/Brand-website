@@ -4,17 +4,19 @@ import Navbar from './navbar'
 import Content_B from './Content-B'
 import Footer from './footer'
 import LoginPage from './login-page'
+import SignUpPage from './Sign-up'
 
 function App() {
   const [showLogin, setShowLogin] = useState(false);
+  const [ShowSignUp, setShowSignUp] = useState(false);
 
   return (
     <>
-      <Navbar setShowLogin={setShowLogin} /> 
+      <Navbar setShowLogin={setShowLogin} setShowSignUp={setShowSignUp}/> 
       <Content_B></Content_B>
       <Footer></Footer>
       {showLogin && <LoginPage setShowLogin={setShowLogin} />}
-      
+      {ShowSignUp && <SignUpPage setShowSignUp={setShowSignUp} />}
     </>
   )
 }
