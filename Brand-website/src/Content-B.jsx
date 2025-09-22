@@ -1,6 +1,6 @@
 function Content_B(){
     return(
-        <div className="mx-auto flex items-center justify-around h-[90vh] w-[80%]">
+        <div className="mx-auto flex items-center justify-around w-[80%]">
             <div className="div">
                 <p className="text-[70px] font-bold leading-tight">
                 YOUR FEET<br />DESERVE<br />THE BEST
@@ -21,11 +21,7 @@ function Content_B(){
                 className="text-[20px] font-bold text-white bg-red-500">Shop Now</button>
                 <button className="text-[20px] text-gray-500 border font-bold">Catogory</button>
             </div>
-            <p className="mt-4 text-gray-500">Also available on</p>
-            <div className="flex gap-4">
-                <img className="size-6 mt-3" src="/images/amazon.png" alt="" />
-                <img className="size-6 mt-3" src="/images/flipkart.png" alt="" />
-            </div>
+            
             </div>
             <div className="size-130">
                 <img src="/images/shoe_image.png" alt="" />
