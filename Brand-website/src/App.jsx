@@ -6,14 +6,14 @@ import Footer from './footer'
 import LoginPage from './login-page'
 
 function App() {
-  const [ShowLogin, setShowLogin] = useState(false);
+  const [showLogin, setShowLogin] = useState(false);
 
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar setShowLogin={setShowLogin} /> 
       <Content_B></Content_B>
       <Footer></Footer>
-      <LoginPage />
+      {showLogin && <LoginPage setShowLogin={setShowLogin} />}
       
     </>
   )
