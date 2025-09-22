@@ -1,5 +1,6 @@
-function LoginPage(setShowLogin) {
 
+
+function LoginPage() {
 
   return (
     <div className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md space-y-4">
@@ -14,7 +15,7 @@ function LoginPage(setShowLogin) {
         placeholder="Password"
         className="w-full p-2 border rounded"
       />
-      <button onClick={()=> setShowLogin(false)} className="w-full bg-blue-500 text-white p-2 rounded mt-2">
+      <button className="w-full bg-blue-500 text-white p-2 rounded mt-2">
         Submit
       </button>
     </div>

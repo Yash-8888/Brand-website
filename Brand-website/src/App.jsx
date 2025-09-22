@@ -1,3 +1,4 @@
+
 import { useState } from 'react'
 import Navbar from './navbar'
 import Content_B from './Content-B'
@@ -13,6 +14,7 @@ function App() {
       <Content_B></Content_B>
       <Footer></Footer>
       <LoginPage />
+      
     </>
   )
 }
