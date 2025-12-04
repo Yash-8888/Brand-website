@@ -8,4 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
+  build: VETE_BASE_PATH || '/brand-website/',
 })
