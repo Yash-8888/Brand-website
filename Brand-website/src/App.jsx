@@ -1,6 +1,6 @@
 
 import { useState } from 'react'
-import Navbar from './navbar'
+import Navbar from './Navbar'
 import Content_B from './Content-B'
 import Footer from './footer'
 import LoginPage from './login-page'
